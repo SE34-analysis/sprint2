@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_beta.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="content">
+            <img class="pic" width="50px" height="50px" src="imgs/SE34-1.png" alt="">
+            <h1 class="logo">Se34 Analysis</h1>
+            <div class="navBar">
+          
+                <a href="">
+                    <li><img width="30px" height="25px" src="imgs/home_FILL0_wght400_GRAD0_opsz48.png" alt=""></li>
+                </a>
+                <li><a href="cssSE34/CONVERTER.html " target="_blank">Cadastro</a></li>
+                
+                <li style="color: black;">|</li>
+
+                <li><a href="../../loginCadastro.HTML/Site_exercicio_cadastro/login.html">Login</a></li>
+
+                <li class="limenu"> <img width="30px" class="menu" src="imgs/menu_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                    <ul class="menu_2">
+                        <li><a href="">Visão Geral</a></li>
+                        <li><a href="">Sobre Nós</a></li>
+                        <li><a href="">Calculadora Financeira</a></li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Criar Conta Aqui</h1>
+                <div class="social-container">
+                    <a href="imgs/Facebook_Logo_(2019).png" class="social"><i class="fa fa-facebook"></i></a>
+                    <a href="imgs/imgbin-instagram-logo-icon-others-jiQNzucrCU3rvyQRKgr29LjEg.jpg" class="social"><i
+                            class="fa fa-twitter"></i></a>
+                    <a href="imgs/174857.png" class="social"><i class="fa fa-linkin"></i></a>
+                </div>
+                <span>ou usa seu email para cadastar</span>
+                <input type="text" placeholder="Nome" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Senha" />
+                <button>Cadastrar</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Login Aqui</h1>
+                <div class="social-container">
+                    <a href="imgs/Facebook_Logo_(2019).png" class="social"><i class="fa fa-facebook"></i></a>
+                    <a href="imgs/imgbin-instagram-logo-icon-others-jiQNzucrCU3rvyQRKgr29LjEg.jpg" class="social"><i
+                            class="fa fa-twitter"></i></a>
+                    <a href="imgs/174857.png" class="social"><i class="fa fa-linkin"></i></a>
+                </div>
+                <span>ou usa sua conta</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Senha" />
+                <a href="#">Esqueceu sua senha?</a>
+                <button>Login</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Olá Cliente</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet tempora perferendis, commodi
+                        tenetur repellendus provident, doloremque eveniet modi minus necessitatibus, fugit velit sint
+                        nam aperiam officiis! Deleniti, rem! Repellendus, nam.</p>
+                    <button class="ghost" id="signIn" onclick="signInLogin()">Login</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Bem Vindo!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur aliquam quia minus
+                        ratione repellat, vero eveniet commodi rem quaerat ipsam nam ut excepturi tempora perferendis ad
+                        eius nulla maxime!</p>
+                    <button class="ghost" id="signUp" onclick="signUpCadastrar()">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Copyright © SE34 | Todos os direitos reservado.
+        </p>
+    </footer>
+</body>
+
+</html>
+<script>
+    // const signUpButton = document.getElementById('signUp');
+    // const signInButton = document.getElementById('signIn');
+    // const container = document.getElementById('container');
+
+    
+
+    // signUpButton.addEventListener('click', () => {
+    //     container.classList.add("right-panel-active");
+    // });
+
+    // signIn.addEventListener('click', () => {
+    //     container.classList.remove("right-panel-active");
+    // });
+    function signInLogin (){
+        container.classList.remove("right-panel-active");
+    }
+    function signUpCadastrar (){
+        // console.log("aaa");
+        container.classList.add("right-panel-active");
+    }
+</script>
