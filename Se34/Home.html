@@ -5,36 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Se34 - Home</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylehome.css">
     <link rel="shortcut icon" href="img/SE34-1.png" type="image/x-icon">
     <script src="javascript/script.js"></script>
+    <script src="./js/funcoes.js"></script>
 </head>
 
 <body>
-   <!-- Começo do Heater -->
-   <div class="heater">
-    <div class="container">
-      <h1 class="logo"><a href="home.html"><img src="img/Se34_Analisys_logo_grande.png" height="60px" width="auto"></a></h1>
-    </div>
-        <div class="menuposition">
-          <button class="mainmenubtn"><a href="home.html">
-          <img src="https://trello.com/1/cards/642202b16098a97dc2059450/attachments/642de4e85f9836f2b0324846/previews/642de4e95f9836f2b032484f/download/home_FILL0_wght400_GRAD0_opsz48.png" height="30px"
-          width="30px"></a></button>
-          <button class="mainmenubtn"><a href="cadastro.html">Cadastro</a></button>
-          <button class="mainmenubtn"><a href="login.html">Login</a></button>
-      <div class="dropdown">
-        <button class="mainmenubtn"><img src='https://trello.com/1/cards/642202b16098a97dc2059450/attachments/64261a05ff1a1f4a8ef51ab0/previews/64261a06ff1a1f4a8ef51af9/download/menu_FILL0_wght400_GRAD0_opsz48_%281%29.png' height="30px" width="30px"></button>
-        <div class="dropdown-child">
-          <a href="Home.html">Home</a>
-          <a href="Home.html#row">Contato</a>
-          <a href="Calc.html">Calculadora Financeira</a>
+    <!-- Começo do Heater -->
+    <div class="header">
+        <div class="content">
+            <img class="pic" width="50px" height="50px" src="../Se34/img/SE34-1.png" alt="">
+            <h1 class="logo">Se34 Analysis</h1>
         </div>
-      </div>
-</div>
-  </div>
-  <!-- Fim do Heater -->
+        <div class="navBar">
+            <a href="Home.html">
+                <li><img width="30px" height="30px" src="../Se34/img/home_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                </li>
+            </a>
+            <li><a href="Cadastro.html">Acessar</a></li>
+
+            <div class="dropdown" style="z-index: 1;">
+                <button class="mainmenubtn"><img
+                        src='https://trello.com/1/cards/642202b16098a97dc2059450/attachments/64261a05ff1a1f4a8ef51ab0/previews/64261a06ff1a1f4a8ef51af9/download/menu_FILL0_wght400_GRAD0_opsz48_%281%29.png'
+                        height="30px" width="30px"></button>
+                <div class="dropdown-child">
+                    <a href="Home.html">Home</a>
+                    <a href="Home.html#row">Contato</a>
+                    <a href="Calc.html">Calculadora Financeira</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim do Heater -->
 
     <!-- Começo banner -->
     <!-- O começo do código Kaori-->
@@ -45,11 +50,11 @@
                 <img src="img/ocean.jpg" style="width:100%; height: 500px;">
                 <div class="text">London, Ebgland</div>
             </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="img/Salmon-in-River-4-by-6.jpg" style="width:100%; height: 500px;">
-                    <div class="text">Sunset in Romania</div>
-                </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/Salmon-in-River-4-by-6.jpg" style="width:100%; height: 500px;">
+                <div class="text">Sunset in Romania</div>
+            </div>
             <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
                 <img src="img/salmonfarm-1200x784.jpg" style="width:100%; height: 500px;">
@@ -58,12 +63,12 @@
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div><br>
-            <div style="text-align:center"><span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
+        <div style="text-align:center"><span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
-        <!-- FIM codigo da Kaori -->
+    </div>
+    <!-- FIM codigo da Kaori -->
     </div>
     <!-- Fim do banner -->
 
@@ -71,11 +76,12 @@
     <div class="social">
         <div class="container">
             <div class="card">
-                <span><h3>Sobre Nós</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span>
+                    <h3>Sobre Nós</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div></span>
         </div>
     </div>
@@ -83,18 +89,18 @@
         <div class="container">
             <div class="card">
                 <span><img src="img/SE34-2.png" alt="Imagem Missão">
-                <h3>Missão</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Missão</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div></span>
             <div class="card">
                 <span><img src="img/SE34-2.png" alt="Imagem Visão">
-                <h3>Visão</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Visão</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div></span>
             <div class="card">
                 <span><img src="img/SE34-2.png" alt="Imagem Valores">
-                <h3>Valores</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Valores</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div></span>
         </div>
     </div>
@@ -102,16 +108,45 @@
         <div class="container">
             <div class="card">
                 The standard Lorem Ipsum passage, used since the 1500s
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum."
 
-Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+                vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
+                qui dolorem eum fugiat quo voluptas nulla pariatur?"
 
-1914 translation by H. Rackham
-"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+                1914 translation by H. Rackham
+                "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+                and I will give you a complete account of the system, and expound the actual teachings of the great
+                explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids
+                pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure
+                rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or
+                pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances
+                occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us
+                ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any
+                right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one
+                who avoids a pain that produces no resultant pleasure?"
 
-Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+                "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+                eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas
+                assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum
+                necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum
+                rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
+                perferendis doloribus asperiores repellat."
             </div>
         </div>
     </div>
@@ -130,55 +165,80 @@ Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
                     <textarea class="campo" name="Mensagem" placeholder="Digite sua mensagem aqui."></textarea>
                     <input class='botaofc' type="submit" value="Enviar">
                 </form>
-                </div>
             </div>
         </div>
-
     </div>
 
+    </div>
 
     <!-- Começo do Footer -->
-    <div class="copyright">
+    <!-- <div class="copyright">
         <div class="container">
             <div id="row">
-            <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-              aaaaaaaa  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                aaaaaaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                aaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                aaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                aaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-               aaaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                aaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-               aaaaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-              aaaaaaaaaa  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-              aaaaaaaa  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-            </span>
+                <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                </span>
 
-            <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-              aaaaaaaa  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                aaaaaaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                aaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                aaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                aaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-               aaaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                aaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-               aaaaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-              aaaaaaaaaa  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-              aaaaaaaa  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-            </span></div>
-            <p>Copyright © SE34 | Todos os direitos reservado.</p>
+                <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaLorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    aaaaaaaa Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                </span>
+            </div>
         </div>
     </div>
+     -->
+     <!-- <div class="social">
+        <div class="container">
+            <div class="card">
+                <span><img src="img/SE34-2.png" alt="Imagem Missão">
+                    <h3>Missão</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div></span>
+            <div class="card">
+                <span><img src="img/SE34-2.png" alt="Imagem Visão">
+                    <h3>Visão</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div></span>
+            <div class="card">
+                <span><img src="img/SE34-2.png" alt="Imagem Valores">
+                    <h3>Valores</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div></span>
+        </div>
+    </div>
+     -->
+    <footer>
+        <p>
+            Copyright © SE34 | Todos os direitos reservado.
+        </p>
+    </footer>
     <!-- Fim do Footer-->
 </body>
 

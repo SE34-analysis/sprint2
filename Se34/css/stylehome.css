@@ -1,12 +1,14 @@
 
 /* Css Banner */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 .banner {
     padding: 10px;
     background-size: cover;
-    background-color: #AEB6FF;
+    background-color:#b9e0f9 ;
     width: 100%;
     height: 550px;
+    margin-bottom: 35px;
 }
 
 .banner .container {
@@ -31,7 +33,7 @@
 
 .social {
     border-top: solid 1px rgba(255, 255, 255, 0.753);
-    background-color: #dbdefd96;
+    background-color: #b9e0f9;
 }
 
 .card img {
@@ -54,13 +56,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #cacdeb65;
+    background-color: rgb(128, 206, 255);
     padding: 20px;
     border-radius: 50px;
 }
 
 .card h3 {
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 .card p {
@@ -79,8 +81,8 @@
 }
 
 body {
-    font-family: Verdana, sans-serif;
-    margin: 0
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mySlides {
@@ -164,9 +166,9 @@ img {
 
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 1.0s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1.0s;
 }
 
 @-webkit-keyframes fade {
@@ -203,7 +205,7 @@ img {
 /* Começo Contato */
 
 .contato {
-background-color: #AEB6FF;
+background-color: #b9e0f9;
 width: 100%;
 height: 500px;
 display: flex;
@@ -235,7 +237,7 @@ display: flex;
 }
 .botaofc {
     border-radius: 100px;
-    background-color: #a3aae9;
+    background-color: #70c6ff;
     width: 20%;
     align-self: center;
 }

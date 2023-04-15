@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se34 - Cadastro</title>
+    <script src="../Se34/js/funções.js"></script>
+    
+    <link rel="stylesheet" href="css/styleCadastro.css">
+    <link rel="shortcut icon" href="img/SE34-1.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- <div class="header">
+         <div class="content">
+            <img class="pic" width="50px" height="50px" src="../Se34/img/SE34-1.png" alt="">
+            <h1 class="logo">Se34 Analysis</h1>
+            <div class="navBar">
+
+                <a href="Home.html">
+                    <li><img width="30px" height="25px" src="../Se34/img/home_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                    </li>
+                </a>
+                <li><a href="" target="_blank">Cadastro</a></li>
+
+                <li style="color: black;">|</li>
+
+                <li><a href="../../loginCadastro.HTML/Site_exercicio_cadastro/login.html">Login</a></li>
+
+                <li class="limenu"> <img width="30px" class="menu" src="../Se34/img/menu_FILL0_wght400_GRAD0_opsz48.png"
+                        alt="">
+                    <ul class="menu_2">
+                        <li><a href="Home.html">Visão Geral</a></li>
+                        <li><a href="Home.html#row">Sobre Nós</a></li>
+                        <li><a href="Calc.html">Calculadora Financeira</a></li>
+                    </ul>
+                </li> -->
+    <!-- <div class="dropdown">
+                    <button class="mainmenubtn"><img
+                            src='https://trello.com/1/cards/642202b16098a97dc2059450/attachments/64261a05ff1a1f4a8ef51ab0/previews/64261a06ff1a1f4a8ef51af9/download/menu_FILL0_wght400_GRAD0_opsz48_%281%29.png'
+                            height="30px" width="30px"></button>
+                    <div class="dropdown-child">
+                        <a href="Home.html">Home</a>
+                        <a href="Home.html#row">Contato</a>
+                        <a href="Calc.html">Calculadora Financeira</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="header">
+        <div class="content">
+            <img width="50px" height="50px" src="../Se34/img/SE34-1.png" alt="">
+            <h1>Se34 Analysis</h1>
+        </div>
+        <div class="navBar">
+            <a href="Home.html">
+                <li><img width="30px" height="30px" src="../Se34/img/home_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                </li>
+            </a>
+            <li><a href="Cadastro.html">Acessar</a></li>
+
+            <div class="dropdown">
+                <button class="mainmenubtn"><img
+                        src='https://trello.com/1/cards/642202b16098a97dc2059450/attachments/64261a05ff1a1f4a8ef51ab0/previews/64261a06ff1a1f4a8ef51af9/download/menu_FILL0_wght400_GRAD0_opsz48_%281%29.png'
+                        height="30px" width="30px"></button>
+                <div class="dropdown-child">
+                    <a href="Home.html">Home</a>
+                    <a href="Home.html#row">Contato</a>
+                    <a href="Calc.html">Calculadora Financeira</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Criar Conta Aqui</h1>
+                <div class="social-container">
+                    <a href="img/Facebook_Logo_(2019).png" class="social"><i class="fa fa-facebook"></i></a>
+                    <a href="img/imgbin-instagram-logo-icon-others-jiQNzucrCU3rvyQRKgr29LjEg.jpg" class="social"><i
+                            class="fa fa-twitter"></i></a>
+                    <a href="img/174857.png" class="social"><i class="fa fa-linkin"></i></a>
+                </div>
+                <span>ou usa seu email para cadastar</span>
+                <input type="text" placeholder="Nome" id="nome_input" />
+                <input type="email" placeholder="Email" id="email_input" />
+                <input placeholder="Cpf" id="cpf_input" />
+                <input type="password" placeholder="Senha" id="senha_input" />
+                <button class="stylist">Cadastrar</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Login Aqui</h1>
+                <div class="social-container">
+                    <a href="img/Facebook_Logo_(2019).png" class="social"><i class="fa fa-facebook"></i></a>
+                    <a href="img/imgbin-instagram-logo-icon-others-jiQNzucrCU3rvyQRKgr29LjEg.jpg" class="social"><i
+                            class="fa fa-twitter"></i></a>
+                    <a href="img/174857.png" class="social"><i class="fa fa-linkin"></i></a>
+                </div>
+                <span>ou usa sua conta</span>
+                <input type="email" placeholder="Email" id="email_input_login"/>
+                <input type="password" placeholder="Senha" id="senha_input_login"/>
+                <a href="#">Esqueceu sua senha?</a>
+                <button class="stylist">Login</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Olá Cliente</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet tempora perferendis, commodi
+                        tenetur repellendus provident, doloremque eveniet modi minus necessitatibus, fugit velit sint
+                        nam aperiam officiis! Deleniti, rem! Repellendus, nam.</p>
+                    <button class="stylist ghost" id="signIn" onclick="signInLogin()">Login</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Bem Vindo!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur aliquam quia minus
+                        ratione repellat, vero eveniet commodi rem quaerat ipsam nam ut excepturi tempora perferendis ad
+                        eius nulla maxime!</p>
+                    <button class="stylist ghost" id="signUp" onclick="signUpCadastrar()">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Copyright © SE34 | Todos os direitos reservado.
+        </p>
+    </footer>
+</body>
+
+</html>
+<script>
+    function signUpCadastrar() {
+        aguardar();
+
+        //Recupere o valor da nova input pelo nome do id
+        // Agora vá para o método fetch logo abaixo
+        var nomeVar = nome_input.value;
+        var emailVar = email_input.value;
+        var cpfVar = cpf_input.value;
+        var senhaVar = senha_input.value;
+
+        if (nomeVar == "" || emailVar == "" || cpfVar == "" || senhaVar == "" ) {
+            cardErro.style.display = "block"
+            mensagem_erro.innerHTML = "(Mensagem de erro para todos os campos em branco)";
+
+            finalizarAguardar();
+            return false;
+        }
+        else {
+            setInterval(sumirMensagem, 5000)
+        }
+        if (cpfVar < 14) {
+            cardErro.style.display = "block"
+            mensagem_erro.innerHTML = "(CPF inválido)";
+            finalizarAguardar();
+            return false;
+        } else {
+            setInterval(sumirMensagem, 5000)
+        }
+        if (emailVar.indexOf('@') < 0 || emailVar.indexOf('.com') < 0) {
+            cardErro.style.display = "block"
+            mensagem_erro.innerHTML = "(Email inválido)";
+            finalizarAguardar();
+            return false;
+        } else {
+            setInterval(sumirMensagem, 5000)
+        } if (senhaVar.length > 6 || senhaVar.indexOf('@') > 0 && senha.indexOf('#') > 0 && senha.indexOf('!') > 0 && senha.indexOf('$') > 0 && senha.indexOf('%') > 0 && senha.indexOf('&') > 0 && senha.indexOf('*') > 0) {
+            setInterval(sumirMensagem, 5000)
+        } else {
+            cardErro.style.display = "block"
+            mensagem_erro.innerHTML = "(Senha fraca)";
+            finalizarAguardar();
+            return false;
+
+            // Enviando o valor da nova input
+            fetch("/usuarios/cadastrar", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    // crie um atributo que recebe o valor recuperado aqui
+                    // Agora vá para o arquivo routes/usuario.js
+                    nomeServer: nomeVar,
+                    emailServer: emailVar,
+                    cpfServer: cpfVar,
+                    senhaServer: senhaVar
+                   
+                })
+            }).then(function (resposta) {
+
+                console.log("resposta: ", resposta);
+
+                if (resposta.ok) {
+                    cardErro.style.display = "block";
+
+                    mensagem_erro.innerHTML = "Cadastro realizado com sucesso! Redirecionando para tela de Login...";
+
+                    setTimeout(() => {
+                        window.location = "login.html";
+                    }, "2000")
+
+                    limparFormulario();
+                    finalizarAguardar();
+                } else {
+                    throw ("Houve um erro ao tentar realizar o cadastro!");
+                }
+            }).catch(function (resposta) {
+                console.log(`#ERRO: ${resposta}`);
+                finalizarAguardar();
+            });
+
+            return false;
+        }
+
+        function sumirMensagem() {
+            cardErro.style.display = "none"
+        }
+    }
+    function signInLogin() {
+        aguardar();
+
+        var emailVarLog = email_input_login.value;
+        var senhaVarLog = senha_input_login.value;
+
+        if (emailVarLog == "" || senhaVarLog == "") {
+            cardErro.style.display = "block"
+            mensagem_erro.innerHTML = "(Mensagem de erro para todos os campos em branco)";
+            finalizarAguardar();
+            return false;
+        }
+        else {
+            setInterval(sumirMensagem, 5000)
+        }
+
+        console.log("FORM LOGIN: ", emailVarLog);
+        console.log("FORM SENHA: ", senhaVarLog);
+
+        fetch("/usuarios/autenticar", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                emailServer: emailVarLog,
+                senhaServer: senhaVarLog
+            })
+        }).then(function (resposta) {
+            console.log("ESTOU NO THEN DO entrar()!")
+
+            if (resposta.ok) {
+                console.log(resposta);
+
+                resposta.json().then(json => {
+                    console.log(json);
+                    console.log(JSON.stringify(json));
+
+                    sessionStorage.EMAIL_USUARIO = json.email;
+                    sessionStorage.NOME_USUARIO = json.nome;
+                    sessionStorage.ID_USUARIO = json.id;
+
+                    setTimeout(function () {
+                        window.location = "./dashboard/cards.html";
+                    }, 1000); // apenas para exibir o loading
+
+                });
+
+            } else {
+
+                console.log("Houve um erro ao tentar realizar o login!");
+
+                resposta.text().then(texto => {
+                    console.error(texto);
+                    finalizarAguardar(texto);
+                });
+            }
+
+        }).catch(function (erro) {
+            console.log(erro);
+        })
+
+        return false;
+    }
+
+    function sumirMensagem() {
+        cardErro.style.display = "none"
+    }
+    // const signUpButton = document.getElementById('signUp');
+    // const signInButton = document.getElementById('signIn');
+    // const container = document.getElementById('container');
+
+
+
+    // signUpButton.addEventListener('click', () => {
+    //     container.classList.add("right-panel-active");
+    // });
+
+    // signIn.addEventListener('click', () => {
+    //     container.classList.remove("right-panel-active");
+    // });
+    function signInLogin() {
+        container.classList.remove("right-panel-active");
+    }
+    function signUpCadastrar() {
+        // console.log("aaa");
+        container.classList.add("right-panel-active");
+    }
+</script>

@@ -1,12 +1,42 @@
-* {
-    font-family: arial;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body {
     margin: 0%;
-    background-color: #AEB6FF;
+    background-color: #b9e0f9;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .header .content {
+    /* justify-content: space-between; */
+    /* align-items: center;
+    align-self: center; */
+/* } */
+/* .pic{
+    margin-bottom: 15px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+.logo {
+    color: rgb(27, 27, 27);
+    margin-right: 500px;
+    margin-bottom: 6px;
+    display: flex;
+} */
+
+.navBar {
+    width: 300px;
+    color: #ffffff;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 100px;
+    justify-content:space-evenly;
+}
+.bar{
+    display: flex;
+    margin: 15px;
 }
 
 .container {
@@ -16,38 +46,44 @@ body {
 }
 
 /* Css Cabeçalho */
-.heater {
-    width: 100%;
-    height: 100px;
-    background-color: #AEB6FF;
-    border-bottom: solid white 1px;
-    flex-direction: row;
+.header {
+    height: 60px;
+    background-color: #94d4ff;
+    border-bottom: 2px solid white;
+    margin-bottom: 83px;
+    align-items: center;
+    background-color: rgb(128, 206, 255);
+    width: 100vw; 
+    display: flex; 
+    justify-content: space-between;
 }
 
-.heater .container {
-    justify-content: space-between;
+.content {
+    display: flex;
+    width: 60%;
+    margin-left: 100px;
     align-items: center;
 }
 
-.logo {
-    color: white;
-    flex-direction: row;
+h1 {
+    font-weight: bold;
+    margin: 0;
 }
-
-.logo a {
+a {
+    color: #242424;
+    font-size: 14px;
     text-decoration: none;
-    color: white;
+    margin: 15px 0;
 }
-
 /* Começo menu dropdown */
 
 .mainmenubtn {
-    background-color: #AEB6FF;
-    color: white;
+    background-color: transparent ;
     border: none;
     cursor: pointer;
-    padding:20px;
-    margin-top:20px;
+    width: fit-content;
+    margin: 0;
+    margin-top:5px;
 }
 .mainmenubtn a {
     color: rgb(255, 255, 255);
@@ -56,7 +92,7 @@ body {
     display: block;
 }
 .mainmenubtn:hover {
-    background-color: #a3aae9;
+    background-color: transparent;
 }
 .dropdown {
     position: relative;
@@ -68,12 +104,13 @@ body {
 }
 .dropdown-child {
     display: none;
-    background-color: #AEB6FF;
+    background-color: #98d8fa;
     min-width: 200px;
     border: #ffffff solid 2px;
     position: absolute; 
     left: -100%; 
     top: 100%;
+    margin-top: 10px;
 }
 .dropdown a {
     color: rgb(255, 255, 255);
@@ -97,10 +134,10 @@ body {
 }
 /* FIM Css Cabeçalho */
 /* Começo do Footer */
-.copyright {
+/* .copyright {
     width: 100%;
     height: 100px;
-    background-color: #AEB6FF;
+    background-color:rgb(128, 206, 255) ;
     border-top: solid 1px white;
     display: flex;
     flex-direction: column;
@@ -132,6 +169,22 @@ body {
 .copyright .container #row {
     display: flex;
     flex-direction: row;
+} */
+
+footer {
+    background-color:  rgb(128, 206, 255);
+    color: #000000;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
 }
 
 /* Fim do Copyright */
