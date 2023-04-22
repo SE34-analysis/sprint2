@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    margin: 10%;
+    background-color: #b9e0f9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    height: 60px;
+    background-color: rgb(128, 206, 255);
+    border-bottom: 2px solid white;
+    align-items: center;
+    background-color: rgb(128, 206, 255);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.content {
+    display: flex;
+    width: 60%;
+    margin-left: 95px;
+    align-items: center;
+}
+.navBar {
+    width: 300px;
+    color: #ffffff;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 100px;
+    justify-content: space-evenly;
+}
+.bar {
+    display: flex;
+    margin: 15px;
+}
+.mainmenubtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 5px;
+    border-radius: none;
+   
+}
+.mainmenubtn a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+   
+}
+.mainmenubtn:hover {
+    background-color: transparent;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    z-index: 999;
+
+}
+.dropdown-child {
+    margin-top: 10px;
+    display: none;
+    background-color: rgb(128, 206, 255);
+    min-width: 50px;
+    border: #ffffff solid 2px;
+    position: absolute;
+    left: -100%;
+    top: 90%;
+}
+.dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+h1 {
+    font-weight: bold;
+    margin: 0;
+}
+/* FIM dropdown*/
+
+.menuposition {
+    position: absolute;
+    top: 0%;
+    left: 83%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* FIM Css Social */
+
+/* CSS SLIDE BANNER */
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Começo Contato */
+
+.contato {
+background-color: #b9e0f9;
+width: 100%;
+height: 500px;
+display: flex;
+}
+
+.contato .container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.faleconosco {
+    background-color: rgba(255, 255, 255, 0.493);
+    width: 70%;
+    height: 400px;
+    border-radius: 90px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-self: center;
+}
+.botaofc {
+    border-radius: 100px;
+    background-color: #70c6ff;
+    width: 20%;
+    align-self: center;
+}
+.campo {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+}
+
+textarea {
+    height: 120px;
+    padding: 10px;
+}
+a {
+    color: #242424;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+footer {
+    background-color: rgb(128, 206, 255);
+    color: #000000;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    margin: 10px 0;
+}
+/* Fim do Copyright */

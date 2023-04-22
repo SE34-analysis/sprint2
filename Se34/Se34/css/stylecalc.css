@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+background-image: url(https://www.arquiprojeto.art.br/wp-content/uploads/2021/05/1_38_ggh7VMS88m1a2e4JjXQ-scaled.jpeg);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    background-color: white;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.197);
+    opacity: 80%;
+    justify-self: center;
+    align-items: center;
+    margin-bottom: 170px;
+    margin-top: 65px;
+}
+
+.card .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttoncalc {
+    background-color: white(255, 200, 0, 0.855);
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+input {
+    border-style: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+.mensagem {
+    border-radius: 20px;
+    background-color: #202af04d;
+    width: 490px;
+    text-align: center;
+    height: fit-content;
+    padding: 5px;
+}
+
+.mensagem a {
+    text-decoration: none;
+}
